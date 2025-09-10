@@ -13,7 +13,7 @@ void printQR(const char *name, const char *pop, const char *transport)
     if(Serial){
         Serial.printf("Scan this QR code from the ESP RainMaker phone app.\n");
     }
-    qrcode_display(payload);
+//qrcode_display(payload);
     if(Serial){
         Serial.printf("If QR code is not visible, copy paste the below URL in a browser.\n%s?data=%s\n", QRCODE_BASE_URL, payload);
     }

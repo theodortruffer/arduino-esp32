@@ -16,7 +16,7 @@
 #ifdef CONFIG_ESP_RMAKER_WORK_QUEUE_TASK_STACK
 #include "RMaker.h"
 #include "esp_system.h"
-#include <qrcode.h>
+//#include <qrcode.h>
 
 #define PROV_QR_VERSION "v1"
 #define QRCODE_BASE_URL     "https://rainmaker.espressif.com/qrcode.html"
